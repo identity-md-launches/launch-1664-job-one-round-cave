@@ -1,0 +1,58 @@
+{
+  "ancestor_sha256": "1369fe961005002e308a48326693ded86cb30834a9befa5b7cb4d721fd8bb175",
+  "generated_before_assembly_sha256": "a9a13c04c89945abeab7800797fa86b7dfae8026a66edb82633dcf5e487b26f0",
+  "wall_sha256": "81e288a895703f3e97f298f5a62ccbe22500726ce4f82eb529d9751629d102c0",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "wall_bytes": 3975594,
+  "addition_boxes_xyxy": [
+    [
+      185,
+      95,
+      370,
+      250
+    ],
+    [
+      370,
+      110,
+      515,
+      219
+    ]
+  ],
+  "changed_pixels_inside_boxes": 43466,
+  "changed_pixels_outside_boxes": 0,
+  "thumbnail": {
+    "path": "dist/line-3/28.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 58380,
+    "sha256": "4c1bb904209a3ea7cffafaeb4d4dc618ecdafcbed073f4e0c3669936557c5f56"
+  },
+  "manual_review_pending": false,
+  "manual_review": {
+    "reviewed_paths": [
+      "artifacts/line-3/wall.png",
+      "artifacts/line-3/wall-v8.png"
+    ],
+    "new_mark": "Upper-left head-only Pepe beside two parallel pebble trails and one chalk crescent.",
+    "new_hands": 0,
+    "new_handprints": 0,
+    "ancestor_hands": "Both inherited hands remain pixel-identical. Each appears as four fingers and one thumb; worn overlapping strokes limit digit separation.",
+    "ancestral_paintings_preserved": true,
+    "no_visible_letters_numbers_captions_signatures_logos_watermarks_borders": true,
+    "earth_pigment_palette": true,
+    "rock_light_framing_preserved": true,
+    "unmet_visual_requirements": [],
+    "limitations": [
+      "The inherited hands have worn overlapping charcoal strokes; visual digit separation is not independently certified.",
+      "Rock pixels within the additive patch were synthesized by the image editor; outside the patch preservation is exact."
+    ]
+  }
+}

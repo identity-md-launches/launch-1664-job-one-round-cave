@@ -1,0 +1,40 @@
+{
+  "demonstration_passed": true,
+  "results": [
+    {
+      "token": "ZTO",
+      "target": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+      "before_block": {
+        "number": "0x18f8e40",
+        "hash": "0x57f561e7217307ab29f9fc3563627b97b97242261522b70429f2a873cf2593fd"
+      },
+      "after_block": {
+        "number": "0x18f9518",
+        "hash": "0xb6e55dcdf6ded6229f188d80f0b986222b198d104e09e9194bb8d97539355a06"
+      },
+      "block_distance": 1752,
+      "endpoint_identity_equal": true,
+      "runtime_bytes": 1287,
+      "code_hash": "0x24e03ed7d7d3d6dc010b9a9836e419a3eb4215383b463f4e6685b4816435f16d",
+      "anchor": "unanchored-rpc-header"
+    },
+    {
+      "token": "IMD",
+      "target": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+      "before_block": {
+        "number": "0x18f8e40",
+        "hash": "0x57f561e7217307ab29f9fc3563627b97b97242261522b70429f2a873cf2593fd"
+      },
+      "after_block": {
+        "number": "0x18f9518",
+        "hash": "0xb6e55dcdf6ded6229f188d80f0b986222b198d104e09e9194bb8d97539355a06"
+      },
+      "block_distance": 1752,
+      "endpoint_identity_equal": true,
+      "runtime_bytes": 22990,
+      "code_hash": "0x79a1ae149d27d4aae006d4dd75cb834222c9623799bbf34359428aaf66fec3bf",
+      "anchor": "unanchored-rpc-header"
+    }
+  ],
+  "limitation": "Unanchored historical endpoints only; no continuous stability or safety claim."
+}

@@ -1,0 +1,30 @@
+{
+  "name": "The Changed Pebble",
+  "image": "https://api.imd.fun/artifacts/81e288a895703f3e97f298f5a62ccbe22500726ce4f82eb529d9751629d102c0",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 28
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Code Delta"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe compares two code trails and notices the stone that differs."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Ethereum executable code identity"
+    }
+  ]
+}

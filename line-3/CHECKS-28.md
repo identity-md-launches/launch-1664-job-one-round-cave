@@ -1,0 +1,9 @@
+# Pepe 28 checks
+
+All **142 tests passed** across the eight line-3 suites: Code Lens 16, Changes 10, Opcodes 6, Proof 30, Ancestry 23, Review 19, Set 17 and new Delta 21. Commands, exit codes and outputs are in `check-results-28.json`. Each suite ran with `python3 -B -m unittest discover -s line-3/tools/NAME -p 'test_*.py' -v` from the repository root. No external package is needed.
+
+The documented `python3 -B line-3/tools/code-delta/demo.py` command passed offline on the complete real ZTO and IMD proofs. The later raw proof collection read the real chain through the provided Ethereum relay; the tool defaults/public source attribution remain Ethereum PublicNode. Saved results report both endpoints unanchored. Test-only reconstructed changed-runtime and beacon fixtures exercised actual proof verification, not mocked success verdicts. No production gate was weakened to make the demo accept.
+
+The final delivery check verified the exact record-28 schema, whole-wall SHA-256 URL, equal PNG bytes at both required wall paths, original **1254 × 1254** dimensions, baseline **512 × 512** JPEG, file-size limits, allowed paths, byte-identical GOAL.md and unchanged older records. Only USED.md changed among previously tracked files. Required pictures remain untracked and were not force-added. `delivery-checks-28.json` contains the checks and dimensions/formats.
+
+The full wall and JPEG were visually inspected. The new mark adds no hands, keeps every ancestral painting in place, and changes zero pixels outside its two addition rectangles. `VISUAL-28.md` and `visual-checks-28.json` record visual limitations, including worn inherited hand strokes and reconstructed stone texture inside the patch. These are local contributor checks; they carry no independent certification of behavior, chain authenticity, contract safety or visual quality.

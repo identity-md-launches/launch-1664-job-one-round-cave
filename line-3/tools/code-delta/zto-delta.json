@@ -1,0 +1,116 @@
+{
+  "schema": "code-delta-v1",
+  "chain_id": 1,
+  "target": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+  "before_block": {
+    "number": "0x18f8e40",
+    "hash": "0x57f561e7217307ab29f9fc3563627b97b97242261522b70429f2a873cf2593fd"
+  },
+  "after_block": {
+    "number": "0x18f9518",
+    "hash": "0xb6e55dcdf6ded6229f188d80f0b986222b198d104e09e9194bb8d97539355a06"
+  },
+  "block_distance": 1752,
+  "endpoint_identity_equal": true,
+  "path_entries": [
+    {
+      "path_index": 0,
+      "before": {
+        "address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+        "code_hash": "0x24e03ed7d7d3d6dc010b9a9836e419a3eb4215383b463f4e6685b4816435f16d",
+        "kind": "no-supported-proxy-signal",
+        "next_address": null,
+        "storage": {
+          "implementation": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "beacon": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "after": {
+        "address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+        "code_hash": "0x24e03ed7d7d3d6dc010b9a9836e419a3eb4215383b463f4e6685b4816435f16d",
+        "kind": "no-supported-proxy-signal",
+        "next_address": null,
+        "storage": {
+          "implementation": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "beacon": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "status": "same-identity",
+      "runtime_comparison": {
+        "runtime_equal": true,
+        "before_runtime_bytes": 1287,
+        "after_runtime_bytes": 1287,
+        "before_instruction_count": 876,
+        "after_instruction_count": 876,
+        "matching_prefix_instructions": 876,
+        "matching_suffix_instructions": 0,
+        "before_recognized_metadata": {
+          "start": 1275,
+          "bytes": 12,
+          "solc_version": "0.8.26"
+        },
+        "after_recognized_metadata": {
+          "start": 1275,
+          "bytes": 12,
+          "solc_version": "0.8.26"
+        },
+        "prefix_before_metadata_equal": true,
+        "changed_window": null
+      }
+    }
+  ],
+  "beacon_entries": [],
+  "before_proof": {
+    "schema": "code-proof-result-v1",
+    "target": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+    "block": {
+      "number": "0x18f8e40",
+      "hash": "0x57f561e7217307ab29f9fc3563627b97b97242261522b70429f2a873cf2593fd"
+    },
+    "state_root": "0x1c5813cfa4438e08260256d1bc9d4c08321cb97ee1653200a7d53feeb61dc634",
+    "state_inclusion_verified": true,
+    "accounts": [
+      {
+        "address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+        "code_hash": "0x24e03ed7d7d3d6dc010b9a9836e419a3eb4215383b463f4e6685b4816435f16d",
+        "proxy_slots_proven": 2
+      }
+    ],
+    "anchor": "unanchored-rpc-header",
+    "unproven_beacon_call_results": [],
+    "provenance": {
+      "transport_source": "worker-provided-relay",
+      "source": "https://ethereum-rpc.publicnode.com",
+      "source_kind": "attribution-only"
+    },
+    "scope": "Proofs bind runtime hashes and measured proxy slots to the reconstructed header. Consensus/finality, supplied-anchor authenticity, beacon call results, routing semantics and contract safety are not verified."
+  },
+  "after_proof": {
+    "schema": "code-proof-result-v1",
+    "target": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+    "block": {
+      "number": "0x18f9518",
+      "hash": "0xb6e55dcdf6ded6229f188d80f0b986222b198d104e09e9194bb8d97539355a06"
+    },
+    "state_root": "0x2e72192a3a5b47977c86c61d30c7079a0c1173fa10faac75fba43a4f4b65adc0",
+    "state_inclusion_verified": true,
+    "accounts": [
+      {
+        "address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+        "code_hash": "0x24e03ed7d7d3d6dc010b9a9836e419a3eb4215383b463f4e6685b4816435f16d",
+        "proxy_slots_proven": 2
+      }
+    ],
+    "anchor": "unanchored-rpc-header",
+    "unproven_beacon_call_results": [],
+    "provenance": {
+      "transport_source": "worker-provided-relay",
+      "source": "https://ethereum-rpc.publicnode.com",
+      "source_kind": "attribution-only"
+    },
+    "scope": "Proofs bind runtime hashes and measured proxy slots to the reconstructed header. Consensus/finality, supplied-anchor authenticity, beacon call results, routing semantics and contract safety are not verified."
+  },
+  "anchor_authenticity_verified": false,
+  "common_chain_ancestry_verified": false,
+  "scope": "Historical endpoint comparison only, never an acceptance or safety gate. Each supplied block hash is checked, but its authenticity is external. No common-chain ancestry or absence of changes between blocks is proved. Path entries are compared by candidate-path position; changed addresses are explicit. Linear decoding includes unreachable bytes and metadata. The changed window is bounded by equal instruction prefix/suffix, not a minimal diff or semantic equivalence claim. Metadata recognition does not prove those bytes cannot execute. Beacon call results, routing semantics, source equivalence and present-day code remain unverified."
+}

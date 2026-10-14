@@ -1,0 +1,53 @@
+{
+  "all_passed": true,
+  "record_number": 28,
+  "record_schema_verified": true,
+  "goal_byte_identical_to_HEAD": true,
+  "older_records_unchanged": true,
+  "allowed_changes_only": true,
+  "new_files_under_100000_bytes_outside_artifacts": true,
+  "wall": {
+    "paths": [
+      "artifacts/line-3/wall.png",
+      "artifacts/line-3/wall-v8.png"
+    ],
+    "format": "PNG",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 3975594,
+    "sha256": "81e288a895703f3e97f298f5a62ccbe22500726ce4f82eb529d9751629d102c0"
+  },
+  "jpeg": {
+    "path": "dist/line-3/28.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 58380,
+    "sha256": "4c1bb904209a3ea7cffafaeb4d4dc618ecdafcbed073f4e0c3669936557c5f56"
+  },
+  "outputs_left_untracked": true,
+  "visual_requirements": {
+    "reviewed_paths": [
+      "artifacts/line-3/wall.png",
+      "artifacts/line-3/wall-v8.png"
+    ],
+    "new_mark": "Upper-left head-only Pepe beside two parallel pebble trails and one chalk crescent.",
+    "new_hands": 0,
+    "new_handprints": 0,
+    "ancestor_hands": "Both inherited hands remain pixel-identical. Each appears as four fingers and one thumb; worn overlapping strokes limit digit separation.",
+    "ancestral_paintings_preserved": true,
+    "no_visible_letters_numbers_captions_signatures_logos_watermarks_borders": true,
+    "earth_pigment_palette": true,
+    "rock_light_framing_preserved": true,
+    "unmet_visual_requirements": [],
+    "limitations": [
+      "The inherited hands have worn overlapping charcoal strokes; visual digit separation is not independently certified.",
+      "Rock pixels within the additive patch were synthesized by the image editor; outside the patch preservation is exact."
+    ]
+  },
+  "limits": "Local contributor checks only; no independent behavior or visual certification."
+}
