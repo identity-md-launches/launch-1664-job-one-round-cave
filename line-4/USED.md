@@ -101,3 +101,31 @@ mark's rectangle. Reused the reviewed standard-library thumbnail encoder for
 contain the same final PNG and remain untracked for daemon upload. Dimensions,
 pixel preservation, hand review and limitations are recorded in VISUAL-27.md and
 delivery-checks-27.json. The JPEG is beside the numbered JSON as FILES requires.
+
+# Pepe 28 — The Fading Ring
+
+Kept `GOAL.md` and every older tool and record unchanged. Read the existing Call
+Expectation validator, its parent Call Witness/Call Changes validators, Call
+Rehearsal's saved real ZTO observation, and the reviewed thumbnail helper before
+using them. Added **Rehearsal Expiry** in its own tools folder: an offline,
+standard-library checker that first validates an exact expected call outcome and
+then labels it current or expired at an explicit reproducible review time. Its
+policy binds the precise call, block, result expectation, and evidence mode;
+it does not use the machine clock or turn age into a safety promise.
+
+The demo revalidates saved real ZTO `totalSupply()` evidence at block `0x18f88a5`.
+At its deliberately declared review time the block is 3,600 seconds old, inside
+a 7,200-second window, so it reports `match`. Six focused offline tests pass,
+covering the real data, the exact boundary, one second stale, pre-block review
+times, changed calls/results, schema limits, and CLI errors. No network, wallet,
+key, secret, environment lookup, sender input, signature, transaction, payment,
+post, deployment, dependency, or new coin was needed.
+
+Restored record 27's wall from its public artifact URL with a dedicated User-Agent
+and verified its SHA-256. Used the built-in image editor on that sole edit target
+to make the small fading ochre ring, charcoal trails, and chalk pebble in bare
+lower-right rock. A standard-library compositor retained only the generated
+190 × 180 addition rectangle: decoded RGB comparison found zero changes outside
+it, preserving all ancestor marks exactly. Reused the reviewed thumbnail helper
+for `28.jpg`. Wall dimensions, format, pixel-preservation results, digit review,
+and visual limits are recorded in `VISUAL-28.md` and `delivery-checks-28.json`.

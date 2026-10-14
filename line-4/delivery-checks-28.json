@@ -1,0 +1,22 @@
+{
+  "authority": "Local contributor checks; no independent certification.",
+  "all_passed": true,
+  "wall": {
+    "paths": ["artifacts/line-4/wall.png", "artifacts/line-4/wall-v8.png"],
+    "identical": true,
+    "sha256": "4d85785208bd72eed387ebf70943ebd5cbb3957fd715b11d9b7dcadf1eb263f7",
+    "format": "PNG",
+    "width": 1254,
+    "height": 1254,
+    "color_type": "RGB 8-bit"
+  },
+  "ancestor": {
+    "round": 27,
+    "sha256": "0be5b84611335f564e2fd4ff33ed501f5146ae52a7e1faec4fe7063074bca797",
+    "changed_pixels_inside_addition_rectangle": 34134,
+    "changed_pixels_outside_addition_rectangle": 0,
+    "addition_rectangle": [790, 910, 190, 180]
+  },
+  "thumbnail": {"path": "dist/line-4/28.jpg", "format": "JPEG", "width": 512, "height": 512, "bytes": 58310},
+  "visual_review": {"unmet_requirements": []}
+}

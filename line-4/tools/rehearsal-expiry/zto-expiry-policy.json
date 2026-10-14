@@ -1,0 +1,13 @@
+{
+  "schema": "rehearsal-expiry-v1",
+  "as_of": "0x6ace3ee7",
+  "max_age_seconds": 7200,
+  "expectation": {
+    "schema": "call-expectation-v1",
+    "chain_id": 1,
+    "call": {"to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e", "data": "0x18160ddd", "value": "0x0"},
+    "block": {"number": "0x18f88a5", "hash": "0x644962fe0c9268aea3a3222fc32fc97a53030aab1f5298f5a570cf540bdaaeea", "timestamp": "0x6ace30d7"},
+    "evidence": "single",
+    "expect": {"kind": "uint256_range", "min": "1000000000000000000000000000", "max": "1000000000000000000000000000"}
+  }
+}
