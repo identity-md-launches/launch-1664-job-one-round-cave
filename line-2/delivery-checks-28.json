@@ -1,0 +1,26 @@
+{
+  "goal_unchanged": true,
+  "older_records_unchanged": true,
+  "new_record_number": 28,
+  "all_non_artifact_files_under_100KB": true,
+  "independent_source_pixel_comparison": {
+    "changed": 7517,
+    "outside_rectangle": 0
+  },
+  "jpeg_dimensions": [
+    512,
+    512
+  ],
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "formats": [
+    "PNG",
+    "JPEG"
+  ],
+  "unmet_visual_requirements": [],
+  "scope_check_passed": true,
+  "line_2_tests_passed": 113,
+  "cli_checks_passed": 4
+}

@@ -1,0 +1,45 @@
+{
+  "source_sha256": "53bd236f05aa1ccd5811f243431c024c9f6377ea76a93c9f2b948564141cea14",
+  "output_sha256": "ead64051ad3128da20251e58a32f4a66607376a53a3e396df16f9cb8a74fea9f",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "placement": [
+    340,
+    170,
+    160,
+    90
+  ],
+  "changed_pixels": 7517,
+  "outside_placement_unchanged": true,
+  "insert_alpha_bounds": [
+    198,
+    130,
+    1620,
+    733
+  ],
+  "prompt_summary": "Two irregular charcoal arcs enclose a red-ochre pebble with a yellow-ochre sun-ray fan; isolated transparent worn pigment, no text or hands.",
+  "unmet_visual_requirements": [],
+  "jpeg": {
+    "path": "dist/line-2/28.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 56206,
+    "sha256": "30c58fe8ea455787794e3279efee657a6644553be92802f71f11898e041b4718"
+  },
+  "visual_review": {
+    "pepe": "wide mouth and heavy-lidded eyes retained",
+    "digits_each_hand": 5,
+    "new_mark_hands": 0,
+    "letters_or_numbers_observed": false,
+    "reviewed_outputs": [
+      "artifacts/line-2/wall-v8.png",
+      "dist/line-2/28.jpg"
+    ]
+  }
+}

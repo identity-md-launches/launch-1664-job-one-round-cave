@@ -17,7 +17,7 @@ TOKENS = {
 }
 PUBLIC_RPC = 'https://ethereum-rpc.publicnode.com'
 PUBLIC_ENDPOINTS = {PUBLIC_RPC, 'https://eth.drpc.org'}
-ASSIGNMENT_RPC = 'http://127.0.0.1:35045/rpc/1'
+ASSIGNMENT_RPC = 'http://127.0.0.1:43135/rpc/1'
 ENDPOINTS = PUBLIC_ENDPOINTS | {ASSIGNMENT_RPC}
 APPROVAL = '0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925'
 MAX_UINT = (1 << 256) - 1

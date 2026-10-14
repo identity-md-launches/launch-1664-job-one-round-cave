@@ -1,0 +1,10 @@
+{
+  "schema": "permission-reference-block-v1",
+  "chain_id": 1,
+  "source": "https://ethereum-rpc.publicnode.com",
+  "block": {
+    "number": "0x18f94f8",
+    "hash": "0x1ef60609ea1eb9c9bc884896eca222fb35113a5da847307fd7f63689b9fd762c",
+    "timestamp": "0x6acec557"
+  }
+}

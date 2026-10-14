@@ -1,0 +1,204 @@
+[
+  {
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "line-2/tools/allowance-changes",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exit": 0,
+    "tests": 29,
+    "output": "test_all_allowance_transitions_and_exact_integer_deltas (test_allowance_changes.ChangesTests.test_all_allowance_transitions_and_exact_integer_deltas) ... ok\ntest_backwards_timestamp_is_rejected (test_allowance_changes.ChangesTests.test_backwards_timestamp_is_rejected) ... ok\ntest_bad_raw_calldata_and_missing_response_fail (test_allowance_changes.ChangesTests.test_bad_raw_calldata_and_missing_response_fail) ... ok\ntest_bounded_worker_success_and_error (test_allowance_changes.ChangesTests.test_bounded_worker_success_and_error) ... ok\ntest_changed_decimals_are_not_compared (test_allowance_changes.ChangesTests.test_changed_decimals_are_not_compared) ... ok\ntest_changed_token_is_not_compared (test_allowance_changes.ChangesTests.test_changed_token_is_not_compared) ... ok\ntest_cli_requires_both_offline_inputs_and_explicit_refresh_inventory (test_allowance_changes.ChangesTests.test_cli_requires_both_offline_inputs_and_explicit_refresh_inventory) ... ok\ntest_conflicting_balance_between_disjoint_pairs_of_same_owner_fails (test_allowance_changes.ChangesTests.test_conflicting_balance_between_disjoint_pairs_of_same_owner_fails) ... ok\ntest_empty_balance_preserves_active_permission (test_allowance_changes.ChangesTests.test_empty_balance_preserves_active_permission) ... ok\ntest_invalid_deadlines_fail_before_start (test_allowance_changes.ChangesTests.test_invalid_deadlines_fail_before_start) ... ok\ntest_inventory_can_be_refreshed_again (test_allowance_changes.ChangesTests.test_inventory_can_be_refreshed_again) ... ok\ntest_missing_pair_is_unknown_not_zero (test_allowance_changes.ChangesTests.test_missing_pair_is_unknown_not_zero) ... ok\ntest_mixed_blocks_duplicate_pairs_and_empty_bundles_fail (test_allowance_changes.ChangesTests.test_mixed_blocks_duplicate_pairs_and_empty_bundles_fail) ... ok\ntest_newly_observed_is_not_newly_approved (test_allowance_changes.ChangesTests.test_newly_observed_is_not_newly_approved) ... ok\ntest_offline_command_cannot_construct_rpc (test_allowance_changes.ChangesTests.test_offline_command_cannot_construct_rpc) ... ok\ntest_order_independence (test_allowance_changes.ChangesTests.test_order_independence) ... ok\ntest_owner_cap_does_not_double_count_overlapping_spenders (test_allowance_changes.ChangesTests.test_owner_cap_does_not_double_count_overlapping_spenders) ... ok\ntest_real_capture_preserves_all_nineteen_pairs (test_allowance_changes.ChangesTests.test_real_capture_preserves_all_nineteen_pairs) ... ok\ntest_real_empty_recent_window_does_not_erase_nineteen_permissions (test_allowance_changes.ChangesTests.test_real_empty_recent_window_does_not_erase_nineteen_permissions) ... ok\ntest_refresh_replays_real_capture_with_hash_pins_and_no_event_scan (test_allowance_changes.ChangesTests.test_refresh_replays_real_capture_with_hash_pins_and_no_event_scan) ... ok\ntest_reorg_of_either_header_is_rejected (test_allowance_changes.ChangesTests.test_reorg_of_either_header_is_rejected) ... ok\ntest_requested_numeric_block_must_match (test_allowance_changes.ChangesTests.test_requested_numeric_block_must_match) ... ok\ntest_retired_relay_is_rejected_and_current_route_is_allowed (test_allowance_changes.ChangesTests.test_retired_relay_is_rejected_and_current_route_is_allowed) ... ok\ntest_same_block_conflicts_fail_but_identical_replay_works (test_allowance_changes.ChangesTests.test_same_block_conflicts_fail_but_identical_replay_works) ... ok\ntest_same_height_different_hash_and_backwards_time_fail (test_allowance_changes.ChangesTests.test_same_height_different_hash_and_backwards_time_fail) ... ok\ntest_total_deadline_terminates_blocked_worker (test_allowance_changes.ChangesTests.test_total_deadline_terminates_blocked_worker) ... ok\ntest_totals_exclude_unmeasured_pairs (test_allowance_changes.ChangesTests.test_totals_exclude_unmeasured_pairs) ... ok\ntest_workspace_and_overwrite_guards (test_allowance_changes.ChangesTests.test_workspace_and_overwrite_guards) ... ok\ntest_wrong_chain_fails_before_any_state_reads (test_allowance_changes.ChangesTests.test_wrong_chain_fails_before_any_state_reads) ... ok\n\n----------------------------------------------------------------------\nRan 29 tests in 0.846s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "line-2/tools/allowance-lens",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exit": 0,
+    "tests": 22,
+    "output": "test_capture_replays_real_responses_with_hash_pinning (test_allowance_lens.AllowanceLensTests.test_capture_replays_real_responses_with_hash_pinning) ... ok\ntest_duplicate_removed_and_out_of_window_logs_fail (test_allowance_lens.AllowanceLensTests.test_duplicate_removed_and_out_of_window_logs_fail) ... ok\ntest_empty_window_does_not_claim_wallet_is_safe (test_allowance_lens.AllowanceLensTests.test_empty_window_does_not_claim_wallet_is_safe) ... ok\ntest_event_amount_is_not_used_as_current_allowance (test_allowance_lens.AllowanceLensTests.test_event_amount_is_not_used_as_current_allowance) ... ok\ntest_explicit_pairs_do_not_scan_logs (test_allowance_lens.AllowanceLensTests.test_explicit_pairs_do_not_scan_logs) ... ok\ntest_finite_allowance_caps_spendable_amount (test_allowance_lens.AllowanceLensTests.test_finite_allowance_caps_spendable_amount) ... ok\ntest_integer_formatting_never_uses_float (test_allowance_lens.AllowanceLensTests.test_integer_formatting_never_uses_float) ... ok\ntest_log_header_mismatch_fails (test_allowance_lens.AllowanceLensTests.test_log_header_mismatch_fails) ... ok\ntest_missing_or_duplicate_state_results_fail (test_allowance_lens.AllowanceLensTests.test_missing_or_duplicate_state_results_fail) ... ok\ntest_offline_cli_never_constructs_rpc (test_allowance_lens.AllowanceLensTests.test_offline_cli_never_constructs_rpc) ... ok\ntest_offline_cli_rejects_live_query_options (test_allowance_lens.AllowanceLensTests.test_offline_cli_rejects_live_query_options) ... ok\ntest_owner_filter_limits_discovery (test_allowance_lens.AllowanceLensTests.test_owner_filter_limits_discovery) ... ok\ntest_owner_total_does_not_double_count_balance (test_allowance_lens.AllowanceLensTests.test_owner_total_does_not_double_count_balance) ... ok\ntest_query_limits_are_enforced_before_network (test_allowance_lens.AllowanceLensTests.test_query_limits_are_enforced_before_network) ... ok\ntest_real_observation_matches_recorded_report (test_allowance_lens.AllowanceLensTests.test_real_observation_matches_recorded_report) ... ok\ntest_reorg_is_rejected (test_allowance_lens.AllowanceLensTests.test_reorg_is_rejected) ... ok\ntest_shuffled_events_are_order_independent (test_allowance_lens.AllowanceLensTests.test_shuffled_events_are_order_independent) ... ok\ntest_transport_rejects_send_methods_before_opening (test_allowance_lens.AllowanceLensTests.test_transport_rejects_send_methods_before_opening) ... ok\ntest_workspace_boundary_rejected_without_reading (test_allowance_lens.AllowanceLensTests.test_workspace_boundary_rejected_without_reading) ... ok\ntest_wrong_chain_stops_before_state_queries (test_allowance_lens.AllowanceLensTests.test_wrong_chain_stops_before_state_queries) ... ok\ntest_wrong_chain_token_and_decimals_fail (test_allowance_lens.AllowanceLensTests.test_wrong_chain_token_and_decimals_fail) ... ok\ntest_zero_balance_is_not_revocation (test_allowance_lens.AllowanceLensTests.test_zero_balance_is_not_revocation) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 0.104s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "line-2/tools/allowance-union",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exit": 0,
+    "tests": 24,
+    "output": "test_backwards_recheck_and_timestamp_rejected (test_allowance_union.UnionTests.test_backwards_recheck_and_timestamp_rejected) ... ok\ntest_chain_reorg_and_wrong_requested_block_fail (test_allowance_union.UnionTests.test_chain_reorg_and_wrong_requested_block_fail) ... ok\ntest_cli_refuses_implicit_live_or_unused_options (test_allowance_union.UnionTests.test_cli_refuses_implicit_live_or_unused_options) ... ok\ntest_complementary_real_subsets_union_without_duplicate_pairs (test_allowance_union.UnionTests.test_complementary_real_subsets_union_without_duplicate_pairs) ... ok\ntest_complete_recheck_is_coverage_not_policy_approval (test_allowance_union.UnionTests.test_complete_recheck_is_coverage_not_policy_approval) ... ok\ntest_conflicting_headers_rejected_even_without_common_pairs (test_allowance_union.UnionTests.test_conflicting_headers_rejected_even_without_common_pairs) ... ok\ntest_default_demo_has_no_network (test_allowance_union.UnionTests.test_default_demo_has_no_network) ... ok\ntest_disjoint_spenders_still_need_consistent_owner_balance (test_allowance_union.UnionTests.test_disjoint_spenders_still_need_consistent_owner_balance) ... ok\ntest_empty_inventory_cannot_pass (test_allowance_union.UnionTests.test_empty_inventory_cannot_pass) ... ok\ntest_explicit_incomplete_recheck_exit_four (test_allowance_union.UnionTests.test_explicit_incomplete_recheck_exit_four) ... ok\ntest_extra_measured_pairs_are_reported (test_allowance_union.UnionTests.test_extra_measured_pairs_are_reported) ... ok\ntest_identity_mismatch_rejected (test_allowance_union.UnionTests.test_identity_mismatch_rejected) ... ok\ntest_malformed_evidence_rejected_before_rpc (test_allowance_union.UnionTests.test_malformed_evidence_rejected_before_rpc) ... ok\ntest_missing_recent_pairs_stay_unknown (test_allowance_union.UnionTests.test_missing_recent_pairs_stay_unknown) ... ok\ntest_no_or_too_many_inputs_rejected (test_allowance_union.UnionTests.test_no_or_too_many_inputs_rejected) ... ok\ntest_order_independence_and_duplicate_input_idempotence (test_allowance_union.UnionTests.test_order_independence_and_duplicate_input_idempotence) ... ok\ntest_partial_recheck_does_not_pass (test_allowance_union.UnionTests.test_partial_recheck_does_not_pass) ... ok\ntest_public_endpoints_only (test_allowance_union.UnionTests.test_public_endpoints_only) ... ok\ntest_real_empty_scan_cannot_erase_older_pairs (test_allowance_union.UnionTests.test_real_empty_scan_cannot_erase_older_pairs) ... ok\ntest_real_rpc_replay_reads_all_pairs_at_one_hash (test_allowance_union.UnionTests.test_real_rpc_replay_reads_all_pairs_at_one_hash) ... ok\ntest_same_block_state_conflict_rejected (test_allowance_union.UnionTests.test_same_block_state_conflict_rejected) ... ok\ntest_strict_json_and_workspace_boundary (test_allowance_union.UnionTests.test_strict_json_and_workspace_boundary) ... ok\ntest_union_cap_rejected_without_truncation (test_allowance_union.UnionTests.test_union_cap_rejected_without_truncation) ... ok\ntest_zero_allowances_remain_in_inventory (test_allowance_union.UnionTests.test_zero_allowances_remain_in_inventory) ... ok\n\n----------------------------------------------------------------------\nRan 24 tests in 0.131s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "line-2/tools/approval-draft",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exit": 0,
+    "tests": 3,
+    "output": "test_out_of_interval_evidence_never_creates_drafts (test_approval_draft.ApprovalDraftTests.test_out_of_interval_evidence_never_creates_drafts) ... ok\ntest_real_zto_deny_produces_only_measured_active_pairs (test_approval_draft.ApprovalDraftTests.test_real_zto_deny_produces_only_measured_active_pairs) ... ok\ntest_sufficient_passing_policy_has_no_drafts (test_approval_draft.ApprovalDraftTests.test_sufficient_passing_policy_has_no_drafts) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.007s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "line-2/tools/draft-age",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exit": 0,
+    "tests": 7,
+    "output": "test_altered_draft_rejected_and_input_digest_changes (test_draft_age.DraftAgeTests.test_altered_draft_rejected_and_input_digest_changes) ... ok\ntest_cleared_and_changed_permissions_never_release_old_candidate (test_draft_age.DraftAgeTests.test_cleared_and_changed_permissions_never_release_old_candidate) ... ok\ntest_cli_offline_and_partial_input_refusal (test_draft_age.DraftAgeTests.test_cli_offline_and_partial_input_refusal) ... ok\ntest_future_observation_and_same_height_fork_refused (test_draft_age.DraftAgeTests.test_future_observation_and_same_height_fork_refused) ... ok\ntest_limit_is_inclusive_and_stale_draft_is_withheld (test_draft_age.DraftAgeTests.test_limit_is_inclusive_and_stale_draft_is_withheld) ... ok\ntest_real_same_height_releases_only_for_owner_review (test_draft_age.DraftAgeTests.test_real_same_height_releases_only_for_owner_review) ... ok\ntest_reference_identity_and_limits_are_strict (test_draft_age.DraftAgeTests.test_reference_identity_and_limits_are_strict) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.067s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "line-2/tools/draft-refresh",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exit": 0,
+    "tests": 4,
+    "output": "test_changed_draft_is_refused (test_draft_refresh.DraftRefreshTests.test_changed_draft_is_refused) ... ok\ntest_changed_pair_or_old_block_is_refused (test_draft_refresh.DraftRefreshTests.test_changed_pair_or_old_block_is_refused) ... ok\ntest_cleared_permission_is_distinguished (test_draft_refresh.DraftRefreshTests.test_cleared_permission_is_distinguished) ... ok\ntest_real_recheck_keeps_zero_balance_permission_visible (test_draft_refresh.DraftRefreshTests.test_real_recheck_keeps_zero_balance_permission_visible) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.014s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "line-2/tools/draft-witness",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exit": 0,
+    "tests": 4,
+    "output": "test_added_fee_field_cannot_match (test_draft_witness.DraftWitnessTests.test_added_fee_field_cannot_match) ... ok\ntest_changed_calldata_cannot_match (test_draft_witness.DraftWitnessTests.test_changed_calldata_cannot_match) ... ok\ntest_old_evidence_cannot_produce_a_witness (test_draft_witness.DraftWitnessTests.test_old_evidence_cannot_produce_a_witness) ... ok\ntest_real_candidate_matches_exactly (test_draft_witness.DraftWitnessTests.test_real_candidate_matches_exactly) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.008s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "line-2/tools/permission-gate",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exit": 0,
+    "tests": 20,
+    "output": "test_block_interval_is_inclusive (test_permission_gate.GateTests.test_block_interval_is_inclusive) ... ok\ntest_case_normalized_duplicate_pairs_rejected (test_permission_gate.GateTests.test_case_normalized_duplicate_pairs_rejected) ... ok\ntest_corrupt_evidence_is_rejected_not_a_policy_pass (test_permission_gate.GateTests.test_corrupt_evidence_is_rejected_not_a_policy_pass) ... ok\ntest_demo_is_offline_and_matches_delivered_report (test_permission_gate.GateTests.test_demo_is_offline_and_matches_delivered_report) ... ok\ntest_duplicate_json_keys_rejected (test_permission_gate.GateTests.test_duplicate_json_keys_rejected) ... ok\ntest_empty_real_event_scan_never_passes (test_permission_gate.GateTests.test_empty_real_event_scan_never_passes) ... ok\ntest_enforcement_exit_codes_and_json (test_permission_gate.GateTests.test_enforcement_exit_codes_and_json) ... ok\ntest_exact_real_limits_pass_only_measured_pairs (test_permission_gate.GateTests.test_exact_real_limits_pass_only_measured_pairs) ... ok\ntest_integer_precision_and_uint256_boundaries (test_permission_gate.GateTests.test_integer_precision_and_uint256_boundaries) ... ok\ntest_invalid_intervals_rejected (test_permission_gate.GateTests.test_invalid_intervals_rejected) ... ok\ntest_limit_one_unit_below_real_allowance_denies (test_permission_gate.GateTests.test_limit_one_unit_below_real_allowance_denies) ... ok\ntest_missing_required_evidence_overrides_even_known_violation (test_permission_gate.GateTests.test_missing_required_evidence_overrides_even_known_violation) ... ok\ntest_nonethereum_chain_and_boolean_rejected (test_permission_gate.GateTests.test_nonethereum_chain_and_boolean_rejected) ... ok\ntest_oversized_policy_rejected (test_permission_gate.GateTests.test_oversized_policy_rejected) ... ok\ntest_policy_token_mismatch_rejected (test_permission_gate.GateTests.test_policy_token_mismatch_rejected) ... ok\ntest_real_deny_all_exposes_three_permissions_including_empty_balances (test_permission_gate.GateTests.test_real_deny_all_exposes_three_permissions_including_empty_balances) ... ok\ntest_unknown_policy_fields_and_schema_rejected (test_permission_gate.GateTests.test_unknown_policy_fields_and_schema_rejected) ... ok\ntest_unpaired_arguments_are_error (test_permission_gate.GateTests.test_unpaired_arguments_are_error) ... ok\ntest_workspace_path_rejects_external_input (test_permission_gate.GateTests.test_workspace_path_rejects_external_input) ... ok\ntest_zero_address_rejected (test_permission_gate.GateTests.test_zero_address_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 0.065s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "line-2/tools/draft-age/draft_age.py"
+    ],
+    "exit": 0,
+    "expected_exit": 0,
+    "output": "{\n  \"schema\": \"allowance-draft-age-v1\",\n  \"status\": \"release_for_owner_review\",\n  \"accepted\": true,\n  \"reference_block_number\": 26187000,\n  \"reference_block_hash\": \"0x1ef60609ea1eb9c9bc884896eca222fb35113a5da847307fd7f63689b9fd762c\",\n  \"age_blocks\": 0,\n  \"maximum_age_blocks\": 0,\n  \"within_age_limit\": true,\n  \"pair_review\": {\n    \"schema\": \"allowance-draft-refresh-v1\",\n    \"status\": \"same_active_permission\",\n    \"reviewed_draft_exact_match\": true,\n    \"token\": \"ZTO\",\n    \"token_address\": \"0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\",\n    \"owner\": \"0x632ee80c099662ee9880d04a307401de195dabf8\",\n    \"spender\": \"0x765956a7307222346b08fff681820a5d77e92028\",\n    \"previous_block_number\": 26184897,\n    \"previous_block_hash\": \"0xbcad3af0fad3def330e01bef9d4352ae1fd1b1b1c17dad252205aecf2c807563\",\n    \"current_block_number\": 26187000,\n    \"current_block_hash\": \"0x1ef60609ea1eb9c9bc884896eca222fb35113a5da847307fd7f63689b9fd762c\",\n    \"current_block_time_utc\": \"2026-10-13T23:57:11+00:00\",\n    \"current_source\": \"https://ethereum-rpc.publicnode.com\",\n    \"previous_allowance_raw\": \"115792089237316195423570985008687907853269984665640564039457584007913129639935\",\n    \"current_allowance_raw\": \"115792089237316195423570985008687907853269984665640564039457584007913129639935\",\n    \"reviewed_limit_raw\": \"0\",\n    \"previous_balance_raw\": \"0\",\n    \"current_balance_raw\": \"0\",\n    \"allowance_unchanged\": true,\n    \"balance_unchanged\": true,\n    \"complete_wallet_audit\": false,\n    \"limitations\": [\n      \"Only this exact owner-spender pair is rechecked; unknown spenders remain unknown.\",\n      \"Offline replay trusts saved RPC responses. Live mode checks the old block hash again.\",\n      \"A later read does not authorize, sign, simulate, submit, or guarantee a transaction.\",\n      \"Permit2, unused signatures, custom authorizations, and other tokens are not covered.\"\n    ]\n  },\n  \"input_sha256\": {\n    \"candidate\": \"405b0007f6a9ec70d2a77debbd62278c16cbc8234eeff8c0706f36e3d5c835d5\",\n    \"before\": \"fbd1234e99c681315786a728c0e703506a7b4721029ce44b191397987ca648bd\",\n    \"policy\": \"c83e9477ec60d0e328f79083e57b7c8efa9303d1e2cb79b1678d070d458316ff\",\n    \"after\": \"9413dac47d17eb9a70e7f566893797967beb2eff7953fccf390f2e25b34f21ff\",\n    \"reference\": \"8280842e68acd0332bbb1caeca50ef153db83469461b1de357f0172f4a494b2b\"\n  },\n  \"owner_review_candidate\": {\n    \"owner\": \"0x632ee80c099662ee9880d04a307401de195dabf8\",\n    \"spender\": \"0x765956a7307222346b08fff681820a5d77e92028\",\n    \"allowance_raw\": \"115792089237316195423570985008687907853269984665640564039457584007913129639935\",\n    \"balance_raw\": \"0\",\n    \"policy_limit_raw\": \"0\",\n    \"target_allowance_raw\": \"0\",\n    \"review_note\": \"Optional revoke candidate; the owner must choose and verify it.\",\n    \"transaction\": {\n      \"chainId\": \"0x1\",\n      \"from\": \"0x632ee80c099662ee9880d04a307401de195dabf8\",\n      \"to\": \"0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\",\n      \"value\": \"0x0\",\n      \"data\": \"0x095ea7b3000000000000000000000000765956a7307222346b08fff681820a5d77e920280000000000000000000000000000000000000000000000000000000000000000\"\n    }\n  },\n  \"complete_wallet_audit\": false,\n  \"limitations\": [\n    \"Age is relative to the caller-supplied reference height, not the wall clock or current tip.\",\n    \"Saved RPC evidence and reference headers are trusted inputs, not independently proven state.\",\n    \"A later reference header alone does not prove the older block remains canonical.\",\n    \"Only the exact measured token-owner-spender pair is covered; other permissions remain unknown.\",\n    \"Release is for owner review only; no signature, authorization, simulation or sending occurs.\"\n  ],\n  \"demonstration\": true\n}\n"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "line-2/tools/draft-age/draft_age.py",
+      "--draft",
+      "line-2/tools/draft-age/reviewed-draft.json",
+      "--before",
+      "line-2/tools/permission-gate/live-observation.json",
+      "--policy",
+      "line-2/tools/permission-gate/demo-policy.json",
+      "--after",
+      "line-2/tools/draft-age/live-after.json",
+      "--reference",
+      "line-2/tools/draft-age/live-reference.json",
+      "--maximum-age-blocks",
+      "8"
+    ],
+    "exit": 0,
+    "expected_exit": 0,
+    "output": "{\n  \"schema\": \"allowance-draft-age-v1\",\n  \"status\": \"release_for_owner_review\",\n  \"accepted\": true,\n  \"reference_block_number\": 26187000,\n  \"reference_block_hash\": \"0x1ef60609ea1eb9c9bc884896eca222fb35113a5da847307fd7f63689b9fd762c\",\n  \"age_blocks\": 0,\n  \"maximum_age_blocks\": 8,\n  \"within_age_limit\": true,\n  \"pair_review\": {\n    \"schema\": \"allowance-draft-refresh-v1\",\n    \"status\": \"same_active_permission\",\n    \"reviewed_draft_exact_match\": true,\n    \"token\": \"ZTO\",\n    \"token_address\": \"0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\",\n    \"owner\": \"0x632ee80c099662ee9880d04a307401de195dabf8\",\n    \"spender\": \"0x765956a7307222346b08fff681820a5d77e92028\",\n    \"previous_block_number\": 26184897,\n    \"previous_block_hash\": \"0xbcad3af0fad3def330e01bef9d4352ae1fd1b1b1c17dad252205aecf2c807563\",\n    \"current_block_number\": 26187000,\n    \"current_block_hash\": \"0x1ef60609ea1eb9c9bc884896eca222fb35113a5da847307fd7f63689b9fd762c\",\n    \"current_block_time_utc\": \"2026-10-13T23:57:11+00:00\",\n    \"current_source\": \"https://ethereum-rpc.publicnode.com\",\n    \"previous_allowance_raw\": \"115792089237316195423570985008687907853269984665640564039457584007913129639935\",\n    \"current_allowance_raw\": \"115792089237316195423570985008687907853269984665640564039457584007913129639935\",\n    \"reviewed_limit_raw\": \"0\",\n    \"previous_balance_raw\": \"0\",\n    \"current_balance_raw\": \"0\",\n    \"allowance_unchanged\": true,\n    \"balance_unchanged\": true,\n    \"complete_wallet_audit\": false,\n    \"limitations\": [\n      \"Only this exact owner-spender pair is rechecked; unknown spenders remain unknown.\",\n      \"Offline replay trusts saved RPC responses. Live mode checks the old block hash again.\",\n      \"A later read does not authorize, sign, simulate, submit, or guarantee a transaction.\",\n      \"Permit2, unused signatures, custom authorizations, and other tokens are not covered.\"\n    ]\n  },\n  \"input_sha256\": {\n    \"candidate\": \"405b0007f6a9ec70d2a77debbd62278c16cbc8234eeff8c0706f36e3d5c835d5\",\n    \"before\": \"fbd1234e99c681315786a728c0e703506a7b4721029ce44b191397987ca648bd\",\n    \"policy\": \"c83e9477ec60d0e328f79083e57b7c8efa9303d1e2cb79b1678d070d458316ff\",\n    \"after\": \"9413dac47d17eb9a70e7f566893797967beb2eff7953fccf390f2e25b34f21ff\",\n    \"reference\": \"8280842e68acd0332bbb1caeca50ef153db83469461b1de357f0172f4a494b2b\"\n  },\n  \"owner_review_candidate\": {\n    \"owner\": \"0x632ee80c099662ee9880d04a307401de195dabf8\",\n    \"spender\": \"0x765956a7307222346b08fff681820a5d77e92028\",\n    \"allowance_raw\": \"115792089237316195423570985008687907853269984665640564039457584007913129639935\",\n    \"balance_raw\": \"0\",\n    \"policy_limit_raw\": \"0\",\n    \"target_allowance_raw\": \"0\",\n    \"review_note\": \"Optional revoke candidate; the owner must choose and verify it.\",\n    \"transaction\": {\n      \"chainId\": \"0x1\",\n      \"from\": \"0x632ee80c099662ee9880d04a307401de195dabf8\",\n      \"to\": \"0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\",\n      \"value\": \"0x0\",\n      \"data\": \"0x095ea7b3000000000000000000000000765956a7307222346b08fff681820a5d77e920280000000000000000000000000000000000000000000000000000000000000000\"\n    }\n  },\n  \"complete_wallet_audit\": false,\n  \"limitations\": [\n    \"Age is relative to the caller-supplied reference height, not the wall clock or current tip.\",\n    \"Saved RPC evidence and reference headers are trusted inputs, not independently proven state.\",\n    \"A later reference header alone does not prove the older block remains canonical.\",\n    \"Only the exact measured token-owner-spender pair is covered; other permissions remain unknown.\",\n    \"Release is for owner review only; no signature, authorization, simulation or sending occurs.\"\n  ],\n  \"demonstration\": false\n}\n"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "line-2/tools/draft-age/draft_age.py",
+      "--maximum-age-blocks",
+      "8"
+    ],
+    "exit": 1,
+    "expected_exit": 1,
+    "output": "{\"error\": \"supply all five inputs and --maximum-age-blocks, or none for the historical demo\"}\n"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "line-2/tools/draft-age/draft_age.py",
+      "--draft",
+      "line-2/tools/draft-age/reviewed-draft.json",
+      "--before",
+      "line-2/tools/permission-gate/live-observation.json",
+      "--policy",
+      "line-2/tools/permission-gate/demo-policy.json",
+      "--after",
+      "line-2/tools/draft-refresh/live-recheck.json",
+      "--reference",
+      "line-2/tools/draft-age/live-reference.json",
+      "--maximum-age-blocks",
+      "8"
+    ],
+    "exit": 3,
+    "expected_exit": 3,
+    "output": "{\n  \"schema\": \"allowance-draft-age-v1\",\n  \"status\": \"stale_pair_evidence\",\n  \"accepted\": false,\n  \"reference_block_number\": 26187000,\n  \"reference_block_hash\": \"0x1ef60609ea1eb9c9bc884896eca222fb35113a5da847307fd7f63689b9fd762c\",\n  \"age_blocks\": 317,\n  \"maximum_age_blocks\": 8,\n  \"within_age_limit\": false,\n  \"pair_review\": {\n    \"schema\": \"allowance-draft-refresh-v1\",\n    \"status\": \"same_active_permission\",\n    \"reviewed_draft_exact_match\": true,\n    \"token\": \"ZTO\",\n    \"token_address\": \"0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\",\n    \"owner\": \"0x632ee80c099662ee9880d04a307401de195dabf8\",\n    \"spender\": \"0x765956a7307222346b08fff681820a5d77e92028\",\n    \"previous_block_number\": 26184897,\n    \"previous_block_hash\": \"0xbcad3af0fad3def330e01bef9d4352ae1fd1b1b1c17dad252205aecf2c807563\",\n    \"current_block_number\": 26186683,\n    \"current_block_hash\": \"0xf5fded9d2b293380b0e1274a7d1bd1375e644e70bc181e3e43db1041aaa4ce6d\",\n    \"current_block_time_utc\": \"2026-10-13T22:53:11+00:00\",\n    \"current_source\": \"https://ethereum-rpc.publicnode.com\",\n    \"previous_allowance_raw\": \"115792089237316195423570985008687907853269984665640564039457584007913129639935\",\n    \"current_allowance_raw\": \"115792089237316195423570985008687907853269984665640564039457584007913129639935\",\n    \"reviewed_limit_raw\": \"0\",\n    \"previous_balance_raw\": \"0\",\n    \"current_balance_raw\": \"0\",\n    \"allowance_unchanged\": true,\n    \"balance_unchanged\": true,\n    \"complete_wallet_audit\": false,\n    \"limitations\": [\n      \"Only this exact owner-spender pair is rechecked; unknown spenders remain unknown.\",\n      \"Offline replay trusts saved RPC responses. Live mode checks the old block hash again.\",\n      \"A later read does not authorize, sign, simulate, submit, or guarantee a transaction.\",\n      \"Permit2, unused signatures, custom authorizations, and other tokens are not covered.\"\n    ]\n  },\n  \"input_sha256\": {\n    \"candidate\": \"405b0007f6a9ec70d2a77debbd62278c16cbc8234eeff8c0706f36e3d5c835d5\",\n    \"before\": \"fbd1234e99c681315786a728c0e703506a7b4721029ce44b191397987ca648bd\",\n    \"policy\": \"c83e9477ec60d0e328f79083e57b7c8efa9303d1e2cb79b1678d070d458316ff\",\n    \"after\": \"718d37dfb7924a084b971bc17937f6092e31b2463fd81effdc2bd1d9d6990a8c\",\n    \"reference\": \"8280842e68acd0332bbb1caeca50ef153db83469461b1de357f0172f4a494b2b\"\n  },\n  \"owner_review_candidate\": null,\n  \"complete_wallet_audit\": false,\n  \"limitations\": [\n    \"Age is relative to the caller-supplied reference height, not the wall clock or current tip.\",\n    \"Saved RPC evidence and reference headers are trusted inputs, not independently proven state.\",\n    \"A later reference header alone does not prove the older block remains canonical.\",\n    \"Only the exact measured token-owner-spender pair is covered; other permissions remain unknown.\",\n    \"Release is for owner review only; no signature, authorization, simulation or sending occurs.\"\n  ],\n  \"demonstration\": false\n}\n"
+  }
+]

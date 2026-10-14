@@ -1,0 +1,56 @@
+{
+  "schema": "allowance-draft-age-v1",
+  "status": "stale_pair_evidence",
+  "accepted": false,
+  "reference_block_number": 26187000,
+  "reference_block_hash": "0x1ef60609ea1eb9c9bc884896eca222fb35113a5da847307fd7f63689b9fd762c",
+  "age_blocks": 317,
+  "maximum_age_blocks": 8,
+  "within_age_limit": false,
+  "pair_review": {
+    "schema": "allowance-draft-refresh-v1",
+    "status": "same_active_permission",
+    "reviewed_draft_exact_match": true,
+    "token": "ZTO",
+    "token_address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+    "owner": "0x632ee80c099662ee9880d04a307401de195dabf8",
+    "spender": "0x765956a7307222346b08fff681820a5d77e92028",
+    "previous_block_number": 26184897,
+    "previous_block_hash": "0xbcad3af0fad3def330e01bef9d4352ae1fd1b1b1c17dad252205aecf2c807563",
+    "current_block_number": 26186683,
+    "current_block_hash": "0xf5fded9d2b293380b0e1274a7d1bd1375e644e70bc181e3e43db1041aaa4ce6d",
+    "current_block_time_utc": "2026-10-13T22:53:11+00:00",
+    "current_source": "https://ethereum-rpc.publicnode.com",
+    "previous_allowance_raw": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+    "current_allowance_raw": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+    "reviewed_limit_raw": "0",
+    "previous_balance_raw": "0",
+    "current_balance_raw": "0",
+    "allowance_unchanged": true,
+    "balance_unchanged": true,
+    "complete_wallet_audit": false,
+    "limitations": [
+      "Only this exact owner-spender pair is rechecked; unknown spenders remain unknown.",
+      "Offline replay trusts saved RPC responses. Live mode checks the old block hash again.",
+      "A later read does not authorize, sign, simulate, submit, or guarantee a transaction.",
+      "Permit2, unused signatures, custom authorizations, and other tokens are not covered."
+    ]
+  },
+  "input_sha256": {
+    "candidate": "405b0007f6a9ec70d2a77debbd62278c16cbc8234eeff8c0706f36e3d5c835d5",
+    "before": "fbd1234e99c681315786a728c0e703506a7b4721029ce44b191397987ca648bd",
+    "policy": "c83e9477ec60d0e328f79083e57b7c8efa9303d1e2cb79b1678d070d458316ff",
+    "after": "718d37dfb7924a084b971bc17937f6092e31b2463fd81effdc2bd1d9d6990a8c",
+    "reference": "8280842e68acd0332bbb1caeca50ef153db83469461b1de357f0172f4a494b2b"
+  },
+  "owner_review_candidate": null,
+  "complete_wallet_audit": false,
+  "limitations": [
+    "Age is relative to the caller-supplied reference height, not the wall clock or current tip.",
+    "Saved RPC evidence and reference headers are trusted inputs, not independently proven state.",
+    "A later reference header alone does not prove the older block remains canonical.",
+    "Only the exact measured token-owner-spender pair is covered; other permissions remain unknown.",
+    "Release is for owner review only; no signature, authorization, simulation or sending occurs."
+  ],
+  "demonstration": false
+}
