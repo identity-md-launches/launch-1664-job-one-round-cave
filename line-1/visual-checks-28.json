@@ -1,0 +1,27 @@
+{
+  "ancestor_sha256": "a6da70cce38d07e463256e9f0c4be14ddc0cb09fcc7b9b8f30e5b295944bdb58",
+  "wall_sha256": "96b51a56587bbe348839bbf89a47f0c1d59be4f96b56f34826c58d2d2b74a493",
+  "wall": {
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3974644
+  },
+  "jpeg": {
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 55366
+  },
+  "addition_box": [
+    935,
+    595,
+    1135,
+    720
+  ],
+  "changed_pixels_inside": 6431,
+  "changed_pixels_outside": 0,
+  "method": "Small deterministic dry-brush pigment overlay on preserved ancestor rock",
+  "unmet_visual_requirements": []
+}
