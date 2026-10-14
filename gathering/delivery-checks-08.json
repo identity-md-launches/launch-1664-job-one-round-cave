@@ -1,0 +1,30 @@
+{
+  "authority": "Local contributor checks; no independent certification.",
+  "wall": {
+    "path": "artifacts/gathering/wall-v8.png",
+    "sha256": "4ee2661ca638f7322bffbf64552377b77ed6c308984d665072c8299fa447c968",
+    "format": "PNG",
+    "width": 1254,
+    "height": 1254,
+    "color_type": "RGB 8-bit"
+  },
+  "thumbnail": {
+    "path": "dist/gathering/08.jpg",
+    "format": "JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 53885
+  },
+  "checks": {
+    "all_documented_tool_suites_passed": 31,
+    "line_demonstrations_passed": 4,
+    "shared_permission_revert_context": "aligned",
+    "goals_recorded": 4,
+    "gallery_record_counts": {"line_1": 28, "line_2": 28, "line_3": 28, "line_4": 28, "gathering": 21}
+  },
+  "visual_review": {
+    "preserved": "Existing cave framing, warm rock, main Pepe, and earlier marks remain visible; the new lower-right four-stone ember mark was appended.",
+    "unmet_requirements": [],
+    "limitations": ["Visual review is a contributor judgment; image-generation edits cannot independently prove per-pixel preservation."]
+  }
+}

@@ -12,3 +12,5 @@ These are ordinary Python source files and real historical observations, with no
 
 - [Review Rehearsal Context](review-rehearsal-context/README.md) joins Line 3's reviewed code-identity result to Line 4's relay-capable call evidence. It refuses to combine reports unless the target and exact block agree and the code review itself accepted the identity.
 - [Swap Code Context](swap-code-context/README.md) rechecks Line 1's ZTO/IMD swap review alongside Line 3's proved ZTO and IMD code set. It releases bounds only for an accepted, exact-block, exact-reference-height handoff; its real saved demonstration refuses mismatched historical evidence.
+
+- [Permission Revert Context](permission-revert-context/README.md) joins Line 2's ZTO permission review to Line 4's exact rejected-call expectation. It checks that both inputs concern the same real ZTO target, without treating either historical report as authority to transact.

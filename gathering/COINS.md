@@ -1,3 +1,7 @@
 none
 
-All four lines can work without a new coin. Line 1 uses the real ZTO/IMD Uniswap v4 pool; Lines 2–4 use ZTO and IMD for their real permission, code and call evidence. The new shared swap/code gate uses those same tokens and prepares no transfer or payment. A new token and hook would not supply the independent chain anchor, owner-selected pair, or exact block alignment that the remaining work needs. No contract from this gathering is ready for a Sepolia deployment request, so there is no coin-order.json or deploy-order.json.
+The four lines are standard-library inspection and planning tools: swap bounds,
+ERC-20 permission review, executable-code identity, and call rehearsal. They
+run against the existing real ZTO/IMD assets and need neither a new asset nor a
+Uniswap v4 hook. A new coin would not make any line possible and would add
+unrelated custody and pool risk.

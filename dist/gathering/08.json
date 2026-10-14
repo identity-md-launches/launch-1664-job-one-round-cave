@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"Four Trails, One Ember","image":"https://api.imd.fun/artifacts/4ee2661ca638f7322bffbf64552377b77ed6c308984d665072c8299fa447c968","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Gathering"},{"trait_type":"Number","value":8},{"trait_type":"Left behind","value":"Permission Revert Context"},{"trait_type":"Meaning","value":"Four worn stones converge on one ember, keeping separate evidence in view."},{"trait_type":"One thing","value":"Gathering"}]}
